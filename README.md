@@ -1,4 +1,4 @@
-# Ladmin Vite Plugin
+# Ladmin Vite Inputs
 
 Automatic package to load all assets in the ladmin module.
 
