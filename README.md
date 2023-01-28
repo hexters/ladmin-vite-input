@@ -5,7 +5,7 @@ Automatic package to load all assets in the ladmin module.
 ```js
 
 . . . 
-import ladminViteInputs from 'ladmin-vite-input';
+import ladminViteInputs from '@hexters/ladmin-vite-plugin';
 . . . 
 
 export default defineConfig({
