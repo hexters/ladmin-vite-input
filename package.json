@@ -1,6 +1,6 @@
 {
-  "name": "@hexters/ladmin-vite-plugin",
-  "version": "0.0.6",
+  "name": "@hexters/ladmin-vite-input",
+  "version": "0.1.0",
   "description": "Automatic package to load all assets in the ladmin module.",
   "keywords": [
     "Laravel",
