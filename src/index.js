@@ -1,2 +1,2 @@
-import modules from "./src/ladminViteInputs";
+import modules from "./ladminViteInputs";
 export default ladminViteInputs = (assets) => [...assets, ...modules()];

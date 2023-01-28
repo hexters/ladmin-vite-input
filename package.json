@@ -1,10 +1,6 @@
 {
-  "name": "ladmin-vite-plugin",
+  "name": "@hexters/ladmin-vite-plugin",
   "version": "0.0.1",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/hexters/ladmin-vite-input.git"
-  },
   "description": "Automatic package to load all assets in the ladmin module.",
   "keywords": [
     "Laravel",
@@ -14,5 +10,17 @@
     "Admin scaffolding"
   ],
   "author": "Asep <hexters@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hexters/ladmin-vite-input.git"
+  },
+  "main": "src/index.js",
+  "type": "module",
+  "files": [
+    "src"
+  ],
+  "engines": {
+    "node": ">=14"
+  }
 }
