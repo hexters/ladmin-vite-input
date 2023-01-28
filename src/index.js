@@ -22,9 +22,12 @@ function modules() {
     for (let i = 0; i < dirs.length; i++) {
 
         for (let x = 0; x < types.length; x++) {
-            modules.push(
-                path.join(dirModule, dirs[i], 'Resources', types[x].dir, dirs[i].toLowerCase() + types[x].ext)
-            );
+            let asset = path.join(dirModule, dirs[i], 'Resources', types[x].dir, dirs[i].toLowerCase() + types[x].ext);
+            if (fs.existsSync(asset)) {
+                modules.push(
+                    path.join(dirModule, dirs[i], 'Resources', types[x].dir, dirs[i].toLowerCase() + types[x].ext)
+                );
+            }
         }
 
     }
