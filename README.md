@@ -3,6 +3,9 @@
 Automatic package to load all assets in the ladmin module.
 
 ```js
+
+. . . 
+import ladminViteInputs from 'ladmin-vite-input';
 . . . 
 
 export default defineConfig({
@@ -19,3 +22,6 @@ export default defineConfig({
 });
 
 ```
+
+## LICENSE
+MIT

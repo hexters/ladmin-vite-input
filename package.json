@@ -5,6 +5,13 @@
     "url": "https://github.com/hexters/ladmin-vite-input.git"
   },
   "description": "Automatic package to load all assets in the ladmin module.",
+  "keywords": [
+    "Laravel",
+    "Laravel Admin",
+    "Admin Page",
+    "Ladmin",
+    "Admin scaffolding"
+  ],
   "author": "Asep <hexters@gmail.com>",
   "license": "MIT"
 }
