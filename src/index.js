@@ -33,6 +33,6 @@ function modules() {
 
 }
 
-export default function ladminViteInputs(assets) {
+module.exports = function ladminViteInputs(assets) {
     return [...assets, ...modules()];
 }
