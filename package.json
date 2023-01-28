@@ -16,7 +16,6 @@
     "url": "https://github.com/hexters/ladmin-vite-input.git"
   },
   "main": "src/index.js",
-  "type": "module",
   "files": [
     "src"
   ],
