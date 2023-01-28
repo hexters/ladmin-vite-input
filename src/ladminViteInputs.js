@@ -33,8 +33,4 @@ function modules() {
 
 }
 
-
-
-
-
-export default ladminViteInputs = (assets) => [...assets, ...modules()];
+export default modules;
